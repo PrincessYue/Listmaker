@@ -11,9 +11,11 @@ import androidx.recyclerview.widget.RecyclerView
 import java.lang.RuntimeException
 
 lateinit var listDataManager: ListDataManager
-lateinit var listsRecyclerView: RecyclerView
 
 class ListSelectionFragment : Fragment(), ListSelectionRecyclerViewAdapter.ListSelectionRecyclerViewClickListener {
+
+    lateinit var listDataManager: ListDataManager
+    lateinit var listsRecyclerView: RecyclerView
     private var listener: OnListItemFragmentInteractionListener? = null
 
     override fun onAttach(context: Context) {

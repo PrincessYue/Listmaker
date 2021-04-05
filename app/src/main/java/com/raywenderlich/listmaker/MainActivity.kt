@@ -20,6 +20,7 @@ private var largeScreen = false
 private var listFragment:ListDetailFragment? = null
 private var listSelectionFragment: ListSelectionFragment = ListSelectionFragment.newInstance()
 private var fragmentContainer: FrameLayout? = null
+
 class MainActivity : AppCompatActivity(), ListSelectionFragment.OnListItemFragmentInteractionListener {
 
 
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity(), ListSelectionFragment.OnListItemFragme
         fragmentContainer = findViewById(R.id.fragment_container)
 
         largeScreen = (fragmentContainer != null)
+
         fab.setOnClickListener{
             showCreateListDialog()
         }
@@ -99,7 +101,7 @@ class MainActivity : AppCompatActivity(), ListSelectionFragment.OnListItemFragme
                     .commit()
             }
             fab.setOnClickListener{
-                showCreateListDialog()
+                showCreateTaskDialog()
             }
         }
     }
