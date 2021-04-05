@@ -31,7 +31,7 @@ class ListDetailFragment : Fragment(){
         }
         return view
     }
-
+//
     fun addTask(item: String) {
         list.tasks.add(item)
 

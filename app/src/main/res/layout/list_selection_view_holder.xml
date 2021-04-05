@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
-
+    <!-- 1-->
     <TextView
         android:id="@+id/itemNumber"
         android:layout_width="wrap_content"

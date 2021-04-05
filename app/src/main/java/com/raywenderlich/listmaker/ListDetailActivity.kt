@@ -10,7 +10,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-
+//
 class ListDetailActivity : AppCompatActivity() {
     lateinit var addTaskButton: FloatingActionButton
     lateinit var listItemsRecyclerView : RecyclerView

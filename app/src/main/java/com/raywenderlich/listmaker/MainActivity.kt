@@ -15,7 +15,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
-
+//
 private var largeScreen = false
 private var listFragment:ListDetailFragment? = null
 private var listSelectionFragment: ListSelectionFragment = ListSelectionFragment.newInstance()

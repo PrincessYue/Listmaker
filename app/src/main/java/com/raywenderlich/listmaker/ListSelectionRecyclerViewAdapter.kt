@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 class ListSelectionRecyclerViewAdapter(val lists : ArrayList<TaskList>, val clickListener: ListSelectionRecyclerViewClickListener) : RecyclerView.Adapter<ListSelectionViewHolder>() {
 
     interface ListSelectionRecyclerViewClickListener {
-
+//
 
         fun listItemClicked(list: TaskList)
     }
