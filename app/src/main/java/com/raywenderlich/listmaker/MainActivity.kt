@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity(), ListSelectionFragment.OnListItemFragme
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == LIST_DETAIL_REQUEST_CODE) {
             data?.let {
-                listDataManager.saveList(data.getParcelableExtra(INTENT_LIST_KEY) as TaskList)
+                listSelectionFragment.saveList(data.getParcelableExtra(INTENT_LIST_KEY) as TaskList)
 
             }
         }

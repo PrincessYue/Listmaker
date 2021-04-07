@@ -842,9 +842,6 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
-color colorAccent
-color colorPrimary
-color colorPrimaryDark
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -910,6 +907,10 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
 color preference_fallback_accent_color
+color primaryColor
+color primaryDarkColor
+color primaryLightColor
+color primaryTextColor
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -920,6 +921,10 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color secondaryColor
+color secondaryDarkColor
+color secondaryLightColor
+color secondaryTextColor
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark

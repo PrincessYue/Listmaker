@@ -10,8 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import java.lang.RuntimeException
 
-lateinit var listDataManager: ListDataManager
-//
 class ListSelectionFragment : Fragment(), ListSelectionRecyclerViewAdapter.ListSelectionRecyclerViewClickListener {
 
     lateinit var listDataManager: ListDataManager
